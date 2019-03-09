@@ -2,4 +2,4 @@ FROM alpine:latest
 
 RUN apk add --update mysql-client curl
 
-CMD ["sh"]
+ENTRYPOINT ["sleep", "3650d"]
